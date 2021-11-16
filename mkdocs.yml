@@ -4,10 +4,13 @@ theme:
   palette:
     scheme: imt
   custom_dir: overrides      
-  #logo: images/favicon.png
-  #favicon: images/favicon.png
+  logo: images/star.png
+  favicon: images/favicon.ico
   features:
     - navigation.sections
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    #- navigration.top
     #- navigation.expand 
     #- toc.integrate
 extra_css:
@@ -15,7 +18,19 @@ extra_css:
 
   
 nav:
-  - Welcome: Home.md
+  - Branch:
+    - About: index.md
+    - Finance:
+        - Setting Up Subscriptions: subs.md
+        - Fighting Fund: fighting-fund.md
+        - Buying Books: buy-books.md
+        - Buying Papers: buy-papers.md
+    - Calendar: calendar.md
+  - John Maclean Society (JMS):
+      About: jms/about.md
+  - Theory:
+      - Recommended Reading: reading/recommended.md
+      - Reading Groups: reading/groups.md
 
 plugins:
   - mknotebooks:

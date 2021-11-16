@@ -1,17 +1,36 @@
 [data-md-color-scheme="imt"] {    
-    --md-primary-fg-color:white;
-    --md-primary-fg-color--dark:  white;
+    --md-primary-fg-color: white; 
+    --md-primary-fg-color--dark: #d90000;
 
     --md-primary-bg-color: white;
     --md-typeset-a-color: black;
 
-    --md-footer-bg-color: #be1918;
+    --md-footer-bg-color: #d90000;
 
+}
+
+.md-tabs{
+    box-shadow: 0 0 0.2rem rgb(0 0 0 / 10%), 0 0.2rem 0.4rem rgb(0 0 0 / 20%);
+
+}
+
+.md-header__topic .md-ellipsis, .md-tabs__item a{
+    color: black !important;
+}
+
+.md-header__button.md-logo{
+    background-color: white !important;
+    /*height: 40px;*/
+}
+
+.md-header__button.md-logo img {
+    /*height: 3rem !important;
+    weight: 3rem !important;*/
 }
 
 .md-button--primary{
     color: white !important;
-    background-color: #be1918 !important;
+    background-color: #d90000 !important;
 }
 
 .md-button--secondary{
