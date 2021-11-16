@@ -1,12 +1,16 @@
 [data-md-color-scheme="imt"] {    
-    --md-primary-fg-color: white; 
+    --md-primary-fg-color: white;
     --md-primary-fg-color--dark: #d90000;
-
+       
     --md-primary-bg-color: white;
     --md-typeset-a-color: black;
 
     --md-footer-bg-color: #d90000;
 
+}
+
+.md-button:hover{
+    border-color:black!important;
 }
 
 .md-tabs{

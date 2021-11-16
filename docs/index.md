@@ -1,4 +1,14 @@
 
+## Links
+
+<center>
+
+[Socialist Appeal](https://www.socialist.net/){ .md-button .md-button--primary }
+[In Defence of Marxism](http://www.marxist.com/){ .md-button .md-button--primary }
+[Revolution Scot](https://revolution.scot/){ .md-button .md-button--primary }
+
+</center>
+
 
 ## Aims
 
